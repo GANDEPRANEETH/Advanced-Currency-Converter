@@ -7,9 +7,9 @@ app = Flask(__name__)
 
 DATABASE = "converter.db"
 
-# -------------------------------
+
 # Initialize Database
-# -------------------------------
+
 def init_db():
     conn = sqlite3.connect("converter.db")
     cursor = conn.cursor()
@@ -31,9 +31,9 @@ def init_db():
 
 init_db()
 
-# -------------------------------
+
 # Home Route
-# -------------------------------
+
 @app.route("/", methods=["GET", "POST"])
 def home():
     result = None
@@ -112,8 +112,7 @@ def history():
     return render_template("history.html", records=records)
 
 
-# -------------------------------
+
 # Run App
-# -------------------------------
 if __name__ == "__main__":
     app.run(debug=True)
