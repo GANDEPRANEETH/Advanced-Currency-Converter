@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.alert {
+    font-size: 18px;
+}
