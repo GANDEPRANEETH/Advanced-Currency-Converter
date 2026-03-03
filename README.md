@@ -24,6 +24,3 @@ A full-stack web application built using Flask that converts currencies in real-
 - CSS
 - REST API (Exchange Rate API)
 
----
-
-## 📂 Project Structure
